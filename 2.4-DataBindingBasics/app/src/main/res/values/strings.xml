@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Mugen</string>
+    <string name="name">Mugen</string>
+    <string name="yellow_star">Yellow Star</string>
+    <string name="bio_text">@string/bio</string>
+    <string name="bio">I was born in a penal colony on the Ryukyu Islands (most likely Miyako Island since it was a penal colony in the past),
+        which was a separate kingdom with close ties to the Satsuma domain of Japan. \n\nMy name means without limitation, as the components
+        of it are the characters for "without" and "limitation." I use the infinity symbol (∞) for my name, which is the Japanese word for "eternity".
+        People often say my Japanese is rough and "Yanki". I may be partially illiterate, but I\'m not stupid. You wanna know who my parents are, yeah… me too.
+        Yamato bastards put me in the South.
+        \n\nFishing is a life and death struggle between man and fish. Forget this and you will most certainly get hurt.
+        \n\nDon\'t live your life making up excuses. The one making your choices is yourself!
+        \n\nIf you\'re gonna send people after me, bring on the strongest you have.
+        \n\nIf we were all the way up there, no one here\'d look any bigger than a grain of sand.
+        \n\nIf living means that I must bow down to you guys, I will happily stand tall and die!\n\n</string>
+    <string name="what_is_your_nickname">What is your Nickname?</string>
+    <string name="done">Done</string>
+</resources>
