@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/layout_margin"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/small_padding"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/name_text"
+        style="@style/NameStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name_Text" />
+
+    <ImageView
+        android:id="@+id/star_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/yellow_star"
+        android:cropToPadding="true"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+    <ScrollView
+        android:id="@+id/bio_scroll"
+        style="@style/NameStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--android:layout_gravity="center_horizontal" has to be added for older devices/APIs for text to show correctly, but nothing > API 28. It's a compatibility issue that should not have been excluded from androidx stuff -->
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal"
+            style="@style/NameStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingMultiplier="1.2"
+            android:paddingLeft="@dimen/layout_margin"
+            android:paddingTop="@dimen/small_padding"
+            android:paddingRight="@dimen/layout_margin"
+            android:text="@string/bio_text"
+            tools:text="@string/bio" />
+    </ScrollView>
+</LinearLayout>
